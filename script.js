@@ -306,11 +306,11 @@ const scaleFactorSelector = () => store.state.config.scaleFactor;
 const helpContent = {
 	shellType: {
 		header: '煙火類型',
-		body: '煙火的類型，選擇「Random」可以獲得非常好的體驗'
+		body: '煙火的類型'
 	},
 	shellSize: {
 		header: '煙火大小',
-		body: '煙火越大綻放範圍就越大，但是煙火越大，設備所需的性能也會更多，大的煙火可能導致裝置卡頓'
+		body: '煙火越大綻放範圍就越大，但是煙火越大，裝置所需的性能也會更多，大的煙火可能導致裝置卡頓'
 	},
 	quality: {
 		header: '畫質',
@@ -831,7 +831,7 @@ function init() {
 	]);
 	
 	setOptionsForSelect(appNodes.skyLighting, [
-		{ label: '不', value: SKY_LIGHT_NONE },
+		{ label: '無', value: SKY_LIGHT_NONE },
 		{ label: '暗', value: SKY_LIGHT_DIM },
 		{ label: '正常', value: SKY_LIGHT_NORMAL }
 	]);
