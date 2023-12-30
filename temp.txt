@@ -1,0 +1,47 @@
+shellType: {
+		header: '煙火類型',
+		body: '煙火的類型，選擇「Random」可以獲得非常好的體驗'
+	},
+	shellSize: {
+		header: '煙火大小',
+		body: '煙火越大綻放範圍就越大，但是煙火越大，設備所需的性能也會更多，大的煙火可能導致裝置卡頓'
+	},
+	quality: {
+		header: '畫質',
+		body: '如果動畫運作不流暢，可以降低畫質。 畫質越高，煙火綻放後的火花數量就越多，但高畫質可能導致裝置卡頓'
+	},
+	skyLighting: {
+		header: '照亮天空',
+		body: '煙火爆炸時，背景會被照亮。 如果螢幕看起來太亮了，可以把它改成「暗」或「無」'
+	},
+	scaleFactor: {
+		header: '縮放',
+		body: '使煙火離得更近或更遠。 對於較大的煙火，可以選擇較小的縮放值，尤其是在手機或平板電腦上'
+	},
+	autoLaunch: {
+		header: '自動放煙火',
+		body: '開啟後會自動放煙火，但關閉後只能透過點擊螢幕的方式來放煙火'
+	},
+	finaleMode: {
+		header: '同時放更多的煙火',
+		body: '可以在同一時間自動放出更多的煙火（但需要開啟先開啟「自動放煙火」）'
+	},
+	hideControls: {
+		header: '隱藏控制按鈕',
+		body: '隱藏螢幕頂部的按鈕'
+	},
+	fullscreen: {
+		header: '全螢幕',
+		body: '切換至全螢幕模式'
+	},
+	longExposure: {
+		header: '保留煙火的火花',
+		body: '可以保留煙火留下的火花'
+	}
+
+
+
+
+
+
+	setLoadingStatus('Lighting the fuse');
