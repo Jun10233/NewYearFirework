@@ -128,6 +128,12 @@ body {
 .menu__subheader {
   margin-bottom: auto;
   padding-bottom: 12px;
+  font-size: 1em;
+  opacity: 0.8;
+}
+.menu__content {
+  margin-bottom: auto;
+  padding-bottom: 12px;
   font-size: 0.86em;
   opacity: 0.8;
 }
